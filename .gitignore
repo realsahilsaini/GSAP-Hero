@@ -1,0 +1,3 @@
+# Ignore HTML and CSS files for GitHub Linguist
+*.html linguist-documentation
+*.css linguist-documentation
