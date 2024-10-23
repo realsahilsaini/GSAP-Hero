@@ -30,12 +30,18 @@ html,body{
   gap: 8rem;
 }
 
+
 #nav h3{
-  font-size:2em;
+  font-size:1.5em;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
 }
 
+#nav-part2 h3{
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
 
 #main h1{
   font-size: 8em;
@@ -46,33 +52,35 @@ html,body{
   margin-left: 15%;
   position: relative;
   z-index: 99;
+
 }
 
 #main h1:nth-child(2){
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 #main h1:nth-child(3){
   text-align: center;
 }
 
-
 img{
-  height: 400px;
+  height: 500px;
+  width: 400px;
+  object-fit:contain;
   position: absolute;
   top: 20%;
-  left: 40%;
-  border: 2px solid whitesmoke;
+  left: 45%;
 }
 
+
 #img1{
-  rotate: 15deg;
+  rotate: 18deg;
 }
 #img2{
+  rotate: 15deg;
+}
+#img3{
   rotate: 10deg;
 }
-#img3{
-  rotate: 8deg;
-}
-#img3{
+#img4{
   rotate: 5deg;
 }
